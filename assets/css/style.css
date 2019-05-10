@@ -8,11 +8,18 @@ body {
     color: #ffffff;
     border-bottom: #cccccc;
     margin: auto;
-    border-bottom: black;
+    
 }
-#AboutMe {
+#WhiteBox {
     width: 960px;
     height: 650px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+}
+#PortfolioWhiteBox {
+    width: 960px;
+    height: 820px;
     background: white;
     padding: 20px;
     margin: auto;
@@ -22,7 +29,7 @@ body {
     background: gray;
     padding: 20px;
     height: 850px;
-    background-image: url("/assets/images/fishnets-and-hearts.png");
+    background-image: url("/assets/images/crossline-lines.png");
     
 }
 h1 {
@@ -36,6 +43,7 @@ h1 {
 h2 {
     color: #4aaaa5;
     text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 a {
@@ -67,9 +75,12 @@ p {
 hr {
     border: 2px solid rgb(223, 229, 235);
 }
-#DataFields {
-    clear: both;
+#FieldsWhiteBox {
+    width: 960px;
+    height: 650px;
     background: white;
+    padding: 20px;
+    margin: auto;
 }
 #name {
     height: 75px;
@@ -77,4 +88,7 @@ hr {
     background: #4aaaa5;
     position: relative;
     
+}
+.label {
+    padding-left: 0px;
 }
