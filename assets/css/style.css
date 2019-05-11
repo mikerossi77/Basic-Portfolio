@@ -91,4 +91,15 @@ hr {
 }
 .label {
     padding-left: 0px;
+    padding-top: 10px;
+    margin: 0px;
+}
+#TextArea {
+    padding: 0;
+    margin: 0;
+}
+button {
+    background: #4aaaa5;
+    color: white;
+    padding: 5px;
 }
