@@ -1,37 +1,52 @@
 body {
     background: #ffffff;
     border: #dddddd;
-    
 }
+
 #TopBar {
-    width: 1000px;
+    width: 960px;
     color: #ffffff;
     border-bottom: #cccccc;
     margin: auto;
-    
 }
-#WhiteBox {
-    width: 960px;
-    height: 650px;
-    background: white;
-    padding: 20px;
+
+#GrayBox {
+    clear: both;
+    /*  background: gray; */
+    /* padding: 20px; */
+    height: 180%;
     margin: auto;
+    /* display: inline-block; */
+    background-image: url("/assets/images/crossline-lines.png");
+    padding: 10px;
 }
-#PortfolioWhiteBox {
+
+.WhiteBox {
+    width: 960px;
+    /*height: 650px;*/
+    /* display: inline-block; */
+    background: white;
+    margin: auto;   
+    overflow: hidden;
+}
+
+/*#PortfolioWhiteBox {
     width: 960px;
     height: 820px;
     background: white;
     padding: 20px;
     margin: auto;
-}
-#GrayBox {
-    clear: both;
-    background: gray;
+}*/
+
+/*#FieldsWhiteBox {
+    width: 960px;
+    height: 650px; 
+    display: inline-block;
+    background: white;
     padding: 20px;
-    height: 850px;
-    background-image: url("/assets/images/crossline-lines.png");
-    
-}
+    margin: auto;
+}*/
+
 h1 {
     color: white;
     width: 300px;
@@ -40,66 +55,76 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2 {
+.heading2 {
     color: #4aaaa5;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    margin: 20px;
 }
+
 a {
     float: left;
     padding: 20px;
     color: 777777;
 }
 
-img {
+.image {
     float: left;
-    padding: 10px;
+    margin: 20px;
 }
+
 footer {
     clear: both;
     background: #666666;
     color: #777777;
 }
+
 p {
     padding-left: 30px;
     color: #777777;
     line-height: 200%;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
+
 #HeaderLinks {
     float: right;
- 
 }
+.fieldsbox {
+    margin-left: 20px;
+}
+
 hr {
     border: 2px solid rgb(223, 229, 235);
 }
-#FieldsWhiteBox {
-    width: 960px;
-    height: 650px;
-    background: white;
-    padding: 20px;
-    margin: auto;
-}
+
 #name {
     height: 75px;
     float: left;
     background: #4aaaa5;
-    position: relative;
-    
+    position: relative; 
 }
+
 .label {
     padding-left: 0px;
     padding-top: 10px;
     margin: 0px;
 }
+
 #TextArea {
     padding: 0;
     margin: 0;
 }
+
 button {
     background: #4aaaa5;
     color: white;
     padding: 5px;
+}
+
+.foot {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-content: center;
 }
