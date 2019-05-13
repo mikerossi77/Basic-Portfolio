@@ -12,40 +12,18 @@ body {
 
 #GrayBox {
     clear: both;
-    /*  background: gray; */
-    /* padding: 20px; */
-    height: 180%;
+    height: 800px;
     margin: auto;
-    /* display: inline-block; */
     background-image: url("/assets/images/crossline-lines.png");
     padding: 10px;
 }
 
 .WhiteBox {
     width: 960px;
-    /*height: 650px;*/
-    /* display: inline-block; */
     background: white;
     margin: auto;   
     overflow: hidden;
 }
-
-/*#PortfolioWhiteBox {
-    width: 960px;
-    height: 820px;
-    background: white;
-    padding: 20px;
-    margin: auto;
-}*/
-
-/*#FieldsWhiteBox {
-    width: 960px;
-    height: 650px; 
-    display: inline-block;
-    background: white;
-    padding: 20px;
-    margin: auto;
-}*/
 
 h1 {
     color: white;
@@ -127,4 +105,8 @@ button {
     bottom: 0;
     width: 100%;
     align-content: center;
+}
+.copyWrite {
+    margin: auto;
+    width: 20%;
 }
